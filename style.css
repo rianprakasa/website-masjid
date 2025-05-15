@@ -57,6 +57,11 @@ table {
 	font-family: 'hankenGrotesk';
 }
 
+@font-face {
+	src: url('font/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf');
+	font-family: 'hankenGroteskBold';
+}
+
 body {
 	font-family: 'hankenGrotesk';
 }
@@ -162,4 +167,105 @@ body {
 
 .btn-section button:hover {
 	cursor: pointer;
+}
+
+
+
+/* ---------------------------------- */
+
+/* #FFBB0D */
+
+.fitur-section {
+	/* background-color: aqua; */
+	width: 75%;
+	margin: 150px auto;
+	text-align: center;
+}
+
+.fitur-section p {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFBB0D;
+}
+
+.fitur-section h1 {
+	margin: 20px auto;
+	font-size: 45px;
+	font-weight: bolder;
+	width: 50%;
+}
+
+.icon-group {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+
+.icon {
+	width: 250px;
+}
+
+.icon img {
+	margin-bottom: 20px;
+}
+
+
+/* -------------------------------- */
+
+
+.section-kegiatan {
+	width: 90%;
+	background-color: #da9d01;
+	margin: 150px auto;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.section-kegiatan > p {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.section-kegiatan h1 {
+	margin: 20px auto;
+	font-family: 'hankenGroteskBold';
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	width: 60%;
+}
+
+.cards {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	width: 30%;
+	padding: 25px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: white;
+	text-align: left;
+}
+
+.card h3 {
+	font-family: 'hankenGroteskBold';
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.card p {
+	margin: 20px 0;
+}
+
+.card img {
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
 }
